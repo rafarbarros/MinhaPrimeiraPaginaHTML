@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro HTML</title>
+</head>
+<body>
+    <h1 id="inicio">Projeto - Minha primeira página HTML</h1>
+    <hr />
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#ferramentas">Ferramentas Utilizadas</a></li>
+        <li><a href="#inspetor">Usando o Inspetor de Elementos</a></li>   
+        <li><a href="#estrutura">Estrutura Básica do HTML</a></li>
+        <li><a href="#tags">Falando Sobre Tags</a></li>
+        <li><a href="#atributos">Atributos Básicos</a></li>
+        <li><a href="#executando">Executando Uma Página HTML</a></li>
+        <li><a href="#textos">Textos</a></li>
+        <li><a href="#listas">Listas Ordenadas e Não Ordenadas</a></li>
+        <li><a href="#links">Links</a></li>
+        <li><a href="#referencias">Referências</a></li>
+    </ul>
+
+    <h2 id="ferramentas">Ferramentas Utilizadas</h2> <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <p>A ferramenta principal que será utilizada no decorrer do curso será o <i>Visual Studio Code</i>, 
+    sendo está uma ferramenta <strong><a href="https://pt.wikipedia.org/wiki/Software_de_código_aberto" title="Wikipédia" target="_blank">open source</a></strong><sup>*</sup> ou seja, uma ferramenta gratuita de código aberto.</p>
+    <p>Para desenvolvimento de paginas web, podemos utilizar qualquer editor de texto simples, como Bloco de notas, 
+    Sublime, Notepad++ , dentre outros disponíveis, vae da preferência.</p>
+    <p>O Visual Studio Code pode ser baixado através da página <strong><a href="https://code.visualstudio.com/download" title="Visual Studio Code" target="_blank">Visual Studio Code.</a></strong><sup>*</sup></p>
+
+    <h2 id="inspetor">Usando o Inspetor de Elementos</h2> <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <p>Uma das ferramentas que podemos utilizar para auxiliar no desenvolvimento dos projetos front-end, é o inspetor de elementos,
+    uma ferramena muito útil para o desenvolvedor.</p>
+    <p>Quem oferece essa ferranenta para nós é o navegador utilizado nos projetos, para acessá-la, com o navegador aberto, apertamos o F12 no teclado,
+    e o inspertor de elementos é exibido, com várias informações do site em que o navegador está aberto. Outra forma possível de abrir essa ferramenta
+    é clicando com o direito do mouse sobre a página aberta no navegador e clicando em inspecionar elemento ou inspecionar, dependendo do navegador.</p>
+    <p>Nessa ferramenta, possuímos vários recursos para analisar como a página foi feita, ou seja todo o código HTML/CSS foi formatado na página.</p>
+    
+    <h2 id="estrutura">Estrutura Básica do HTML</h2> <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <p>A cada projeto que iniciamos no Visual Studio Code, uma boa prática a se fazer, é criar uma pasta específica para cada projeto criado. Devemos 
+    abrir a pasta clicando em arquivo, abrir pasta e selecionar a pasta do projeto em questão, dessa forma toda a estrutura do projeto será exibida
+    na árvore do lado esquerdo do Visual Studio, então toda mudança, ou atualização desse projeto deverá ser salvo na sua respectiva pasta, dessa forma 
+    podemos deixar tudo mais organizado e de fácil acesso.</p>
+    <p>A consistência de uma página HTML possui basicamente 3 partes, as chamadas 'Tags', que são:</p>
+        <ul>
+            <li>html</li>
+            <li>head</li>
+            <li>body</li>
+        </ul>
+
+    <h2 id="tags">Falando Sobre Tags</h2> <small><a href="#inicio">(Voltar ao topo)</a></small>
+    
+        <ul>
+            <li><strong>html:</strong> Tudo que estiver definido dentro destas 'Tas', define para o navegador que esta é uma página html, possuindo a seguinte característica:</li>
+                <p>
+                <ul>
+                    <li> < html> : Dessa forma, a 'Tag' foi aberta</li>
+                    <p>
+                    <li> < /html> : Dessa forma, a 'Tag' foi fechada</li>
+                </ul>
+        </ul>
+
+        <ul>
+            <li><strong>head:</strong> Tudo que estiver definido dentro destas 'Tas', seria o cabeçalho da página, pré-carrega informações antes de exibir para o usuário, possuindo a seguinte característica:</li>
+                <p>
+                <ul>
+                    <li> < head> : Dessa forma, a 'Tag' foi aberta</li>
+                    <p>
+                    <li> < /head> : Dessa forma, a 'Tag' foi fechada</li>
+                </ul>
+        </ul>
+
+        <ul>
+            <li><strong>body:</strong> Tudo que estiver definido dentro destas 'Tas', define oque de fato, será exibido para o usuário, possuindo a seguinte característica:</li>
+                <p>
+                <ul>
+                    <li> < body> : Dessa forma, a 'Tag' foi aberta</li>
+                    <p>
+                    <li> < /body> : Dessa forma, a 'Tag' foi fechada</li>
+                </ul>
+        </ul>
+    
+
+    <h2 id="atributos">Atributos Básicos</h2> <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <p>Atributos das 'Tags' nada mais é, doque as propriedades que as 'Tags' podem ter, podendo ser atributos globais, ou seja , que todas as 'Tags' vão ter, 
+        e os atributos específicos de cada 'Tag'.</p>
+        
+    <ul>
+        <li>São atributos globais/genéricos:</li><p>
+            
+        <ul>
+            <li><strong>id:</strong> Identificador de algum elemento que se deseja alterar, muito utilizado no javascript.</li>
+            <li><strong>style:</strong> Pode ser utilizado para adicionar formatação diretamente no elemento da página html, porém é voltado exclusivamente para formatação via CSS.</li>
+            <li><strong>class:</strong> Podendo ser adicionado também para formatação direta no elemento html, é voltado exclusivamente para formatação via CSS. </li>
+        </ul>
+        
+
+    </ul> 
+
+    <ul>
+            <li><strong>type:</strong> O atributo input, é utilizado para criar campos de formulário , e esse atributo 'TYPE' é específico do atributo 'INPUT', podendo receber valores como
+            'text', 'number', 'color', dentre outros.</li><p>
+            <li><strong>src:</strong> Utilizado para se adicionar o endereço de localização das imagens que serão adicionadas na página, é específico do atributo 'IMG', podendo estas imagens serem, 
+            imagens salvas na pasta do projeto, ou um link de uma página externa. </li>
+            
+
+    </ul>
+    
+
+    <h2 id="executando">Executando Uma Página HTML</h2> <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <p>Para executar as páginas diretamente no Visual Studio Code, podemos utilizar uma extensão criada especificamente para isso, é só instalar o 'Live Server'. Para executar 
+        a ferramenta, devemos clicar com o direito do mouse sobre o arquivo html e abrir a opção 'Open With Live Server', com isso uma página do navegador padrão executará o projeto.
+    </p>
+    <p>
+
+    <h2 id="textos">Textos</h2> <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <p>Os textos nas páginas html, podem ser exibidos de diversas formas, tamanhos e cores. Uma das formas que podemos utilizar, para formatação direta da página, como os mais comuns utilizados, os atributos 'h1, h2, h3, h4, h5 e h6.</p>
+
+    <h1>h1 : 'O texto aparece assim'</h1>
+    <h2>h2 : 'O texto aparece assim'</h2>
+    <h3>h3 : 'O texto aparece assim'</h3>
+    <h4>h4 : 'O texto aparece assim'</h4>
+    <h5>h5 : 'O texto aparece assim'</h5>
+    <h6>h6 : 'O texto aparece assim'</h6>
+    
+    <h2 id="listas">Listas Ordenadas e Não Ordenadas</h2> <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <p>Basicamente, existem 2 tipos de listas que são utilizadas na criação de uma página html, elas seguem um padrão pré-definido pelo navegador, porém podemos estiliza-las via CSS.</p>
+
+    
+    Listas ordenadas, seguem um padrão numérico para identificação dos itens, como exemplo a seguir:
+    
+        <ol>
+            <li>Lista ordenada</li>
+            <li>Lista ordenada</li>
+            <li>Lista ordenada</li>
+        </ol>
+
+        Listas não ordenadas, seguem um padrão simbólico como pequenos pontos, sendo este o padrão do navegador para identificação dos itens, como exemplo a seguir:
+
+        <ul>
+            <li>Lista não ordenada</li>
+            <li>Lista não ordenada</li>
+            <li>Lista não ordenada</li>
+        </ul>
+    
+
+    <h2 id="links">Links</h2> <small><a href="#inicio">(Voltar ao topo)</a></small>
+    <p>Toda página que utilizamos hoje em dia, possui um link que pode te direcionar para outra página externa, ou nos direciona para outra aba do mesmo site.</p>
+    <p>Para utilizarmos essa fincionalidade utilizaremos a 'Tag' < a> (abre 'Tag'),  < /a> (fecha 'Tag') , que significa "ancoragem", ou seja, fazer a ligação/ancoragem entre o link digitado e a página que se deseja visitar quando clicado.</p>
+
+        <ul>
+            <li>Exemplo:</li>
+
+            <ul>
+                <li> <p>
+                    <a href="http://dio.me" title="Digital Innovation One" target="_blank"> Dio.me</a> 
+                 </li>
+            </ul>
+
+        </ul>
+    <h2 id="referencias">Referências</h2> <small><a href="#inicio">(Voltar ao topo)</a></small>
+
+    <p>https://pt.wikipedia.org/wiki/Software_de_código_aberto
+    <p>https://code.visualstudio.com/download"
+    <p>https://web.dio.me/course/introducao-ao-html-na-pratica/learning/a6c501f1-c8f1-41b0-ac09-9f30e79fcd01?back=/track/formacao-html-web-developer&tab=undefined&moduleId=undefined
+    <p>https://web.dio.me/course/introducao-ao-html-na-pratica/learning/ac583eab-c0fc-41a2-9725-e075c3937044?back=/track/formacao-html-web-developer&tab=undefined&moduleId=undefined        
+    <p>https://web.dio.me/course/introducao-ao-html-na-pratica/learning/c87d843e-cfc7-4087-a2c2-1bdc96f7cce5?back=/track/formacao-html-web-developer&tab=undefined&moduleId=undefined
+    <p>https://web.dio.me/course/introducao-ao-html-na-pratica/learning/8baf10f1-b5c4-4624-a593-e499504d7e42?back=/track/formacao-html-web-developer&tab=undefined&moduleId=undefined
+    <p>https://web.dio.me/course/introducao-ao-html-na-pratica/learning/6b651559-6750-4520-9768-0e0bffffe64d?back=/track/formacao-html-web-developer&tab=undefined&moduleId=undefined
+    <p>https://web.dio.me/course/introducao-ao-html-na-pratica/learning/240b52f4-478a-403a-8014-9e06edc4b195?back=/track/formacao-html-web-developer&tab=undefined&moduleId=undefined
+    <p>https://web.dio.me/course/introducao-ao-html-na-pratica/learning/2536e54a-06c4-4237-8f70-891eca7bc90b?back=/track/formacao-html-web-developer&tab=undefined&moduleId=undefined
+    <p>https://web.dio.me/course/introducao-ao-html-na-pratica/learning/4d4a7d19-0e94-4dd7-bc73-51ad64940e4e?back=/track/formacao-html-web-developer&tab=undefined&moduleId=undefined
+    <p>https://web.dio.me/course/introducao-ao-html-na-pratica/learning/940389cb-cc74-44b0-a8fc-69a8d385b623?back=/track/formacao-html-web-developer&tab=undefined&moduleId=undefined 
+    <p>http://dio.me        
+
+
+</body>
+</html>
